@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #F1F1F3;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);  
+}
+
+.wish{
+    color: rgba(0,0,0,.2);
+    margin-right: 20px;
+}
+
+.nav-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    
+}
+.nav-sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px 0 0;
+    width: 15%;
+}
+.main-container{
+    margin:10px 120px 10px 120px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #0F1317;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.heading{
+    padding: 10px 0px 10px 10px;
+    font-weight: bold;
+}
+/* inner container css starts here */
+.child-container{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    margin-top: 30px;
+}
+.left-container{
+    width: 75%;
+    background-color:white;
+    margin-right: 20px;
+
+}
+.sub-heading{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 0px 0px 10px 10px;
+}
+.p-text{
+    color:#121212;
+    font-weight: bold;
+    
+}
+#course_price{
+    height: 30px;
+    width: 15%;
+    background-color: white;
+    padding-left: 10px;
+}
+.sq-box{
+    width: 50px;
+    height: 50px;
+    background-color:  #F1F1F3;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0px 20px ;
+    height: 90px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    color: #080808;
+    margin-bottom: 30px;
+}
+.course-name{
+    padding: 0 0 0 20px;
+}
+.button{
+    background-color:#FD673A ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 2px;
+    margin: 7px 5px 0 0;
+    width: 60px;
+
+}
+.author{
+    margin: 0 160px 0 120px;
+    color: #929292;
+}
+.star-price-add-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+}
+#star{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.grey-colour{
+    color:rgba(0,0,0,.2); 
+}
+.yellow-colour{
+    color: yellow;
+}
+.price{
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+.dash{
+    font-size: 16px;
+    margin-right: 50px;
+    color: #929292;
+}
+.deleted-dash{
+    font-size:15px;
+    margin-right: 10px;
+    color: #929292;
+
+}
+.add-to-cart{
+    background-color:#FD673A ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: small;
+    padding: 6px;
+    margin: 5px 2px 0 20px;
+    width: 140px;
+
+}
+#arrow{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+
+.right-container{
+    width: 25%;
+
+}
+
+.search-container input{
+    height: 30px;
+    width: 92%;
+    background-color: #EEF2FF;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    
+    
+}
+.search-container button{
+    float: right;
+    color: white;
+    background-color: #FD673A;
+    border: none;
+    width: 8%;
+    height: 30px;
+    
+}
+.side-container{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.side-title{
+    padding: 5% 20% 5% 30%;
+    font-weight: bold;
+}
+.line{
+    border-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 0 20px 10px 20px;
+}
+.cart-info{
+    color:rgba(0,0,0,.2); 
+    margin: 20px 20px 90% 20px;
+}
+.cart-value{
+    color:#121212;
+    margin: 0px 0px 5px 30px ;
+}
+.zero{
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 0px 5px 30px ;
+
+}
